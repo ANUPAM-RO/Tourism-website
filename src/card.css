@@ -1,0 +1,6 @@
+.myImg:hover {
+    opacity: 0.8;
+}
+.items:hover {
+    transform: scale(1.1);
+}
