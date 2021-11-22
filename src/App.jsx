@@ -12,7 +12,7 @@ function App() {
         <>
             <Header />
 
-            <BrowserRouter basename="/Tourisum-website/build">
+            <BrowserRouter basename="/Tourism-website/build">
                 <Switch>
                     <Route exact path="/" component={Home} />
                     <Route path="/travel" component={Travel} />
