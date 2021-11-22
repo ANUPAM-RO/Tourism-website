@@ -26,7 +26,9 @@ const About = () => {
                     const { id, title, image, desc } = elem;
                     return (
                         <div className="about">
-                            <h2 className="text-center">{title}</h2>
+                            <h2 className="text-center text-uppercase">
+                                {title}
+                            </h2>
                             <Image
                                 src={"/" + image}
                                 style={{ width: "20rem", height: "15rem" }}
@@ -38,7 +40,9 @@ const About = () => {
                 })
             ) : (
                 <div className="menu-items container-fluid mt-5 ">
-                    <h1 className="text-center">{dataPlace.title}</h1>
+                    <h1 className="text-center text-uppercase">
+                        {dataPlace.title}
+                    </h1>
                     <div className="row">
                         <div className="col-11 mx-auto">
                             <div className="row my-5">
