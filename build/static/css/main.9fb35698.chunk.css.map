@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/card.css"],"names":[],"mappings":"AAAA,aACI,UACJ,CACA,aACI,4BAAqB,CAArB,oBACJ","file":"main.9fb35698.chunk.css","sourcesContent":[".myImg:hover {\n    opacity: 0.8;\n}\n.items:hover {\n    transform: scale(1.1);\n}\n"]}
