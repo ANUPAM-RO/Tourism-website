@@ -13,9 +13,9 @@ const Header = ()=>{
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto ">
    
-      <Nav.Link > <NavLink exact  to ='/'  style={{ textDecoration: 'none', color:'inherit'}}>Home</NavLink></Nav.Link>
-      <Nav.Link><NavLink exact  to ='/travel'  style={{ textDecoration: 'none', color:'inherit'}}>Travel</NavLink></Nav.Link>
-      <Nav.Link><NavLink exact  to ='/about'  style={{ textDecoration: 'none', color:'inherit' }}>About</NavLink></Nav.Link>
+      <Nav.Link > <NavLink  to ='/'  style={{ textDecoration: 'none', color:'inherit'}}>Home</NavLink></Nav.Link>
+      {/* <Nav.Link><NavLink  to ='/travel'  style={{ textDecoration: 'none', color:'inherit'}}>Travel</NavLink></Nav.Link> */}
+      <Nav.Link><NavLink  to ='/about'  style={{ textDecoration: 'none', color:'inherit' }}>About</NavLink></Nav.Link>
       
       </Nav>
     </Navbar.Collapse>
