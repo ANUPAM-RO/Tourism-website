@@ -9,16 +9,15 @@ import "./App.css";
 function App() {
   return (
     <>
-      {/* <BrowserRouter basename="/Tourism-website/build"> */}
-      <BrowserRouter>
+      <BrowserRouter basename="/Tourism-website/build">
         <Header />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route component={Error} />
         </Switch>
+        <Footer />
       </BrowserRouter>
-      <Footer />
     </>
   );
 }
