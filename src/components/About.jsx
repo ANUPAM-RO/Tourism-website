@@ -27,13 +27,13 @@ const About = () => {
   console.log(location.pathname);
 
   useEffect(() => {
-    Place.map((curElm) => {
+    Place.forEach((curElm) => {
       const { title } = curElm;
       if (location.pathname.replace("/about/", "") === title) {
         setPlace(curElm);
       }
     });
-  }, []);
+  }, [location.pathname]);
 
   return (
     <>
