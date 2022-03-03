@@ -8,7 +8,7 @@ function ImageComponent({ image, title }) {
   return (
     <div className="img-div">
       <img
-        src={"/" + image}
+        src={image}
         className="card-img-top myImg"
         style={{
           width: "100%",
@@ -43,10 +43,7 @@ const About = () => {
           return (
             <div className="about">
               <h2 className="text-center text-uppercase">{title}</h2>
-              <Image
-                src={"/" + image}
-                style={{ width: "20rem", height: "15rem" }}
-              />
+              <Image src={image} style={{ width: "20rem", height: "15rem" }} />
               <p>{desc}</p>
               <hr></hr>
             </div>
