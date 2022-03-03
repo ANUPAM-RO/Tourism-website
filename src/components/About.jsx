@@ -44,7 +44,7 @@ const About = () => {
             <div className="about">
               <h2 className="text-center text-uppercase">{title}</h2>
               <Image
-                src={"../" + image}
+                src={image}
                 style={{ width: "20rem", height: "15rem" }}
               />
               <p>{desc}</p>
